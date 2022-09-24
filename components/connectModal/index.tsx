@@ -20,7 +20,6 @@ const CoinbaseWallet = new WalletLinkConnector({
 });
 
 const WalletConnect = new WalletConnectConnector({
-  rpc: `https://mainnet.infura.io/v3/${process.env.INFURA_KEY}`,
   bridge: "https://bridge.walletconnect.org",
   qrcode: true,
 });
